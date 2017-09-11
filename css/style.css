@@ -570,7 +570,7 @@ ul.toc {
     display: none;
   }
 
-  .nav {
+  .mobile-nav {
     display: inline-block;
     -webkit-padding-start: 5px;
     -webkit-margin-before: 0;
@@ -597,7 +597,7 @@ ul.toc {
     display: inline-block;
   }
 
-  #header {
+  #header .nav {
     display: inline-block;
 /*    float: left;*/
     width: 55%;
