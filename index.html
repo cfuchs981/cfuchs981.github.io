@@ -16,6 +16,7 @@
 	<body>
 		<!--Navigation -->
 	
+
 		<div id="page-wrapper">
 			<!-- Header -->
 			<div id="header">
@@ -25,16 +26,21 @@
  					 <li><a href="#illustration">Home</a></li>
   						<li><a href="#about">About Me</a></li>
   					<li><a href="#work">Work</a></li>
+  					  <li><a href="FCResume.pdf">Resume</a></li>
+
 					</ul>
 			</div>
 			</div>
+			
+			
 				
 			</div>
 			<!-- Essentials Illustration -->
-			<div id="illustration"><center><img src="images/big.gif" /><p class="tagline" style="padding: 0 0 0 0;">h e l l o, w o r l d!</p></center></div>
+			<div id="illustration"><center><img src="img/big.gif" /><p class="tagline" style="padding: 0 0 0 0;">h e l l o, w o r l d!</p></center></div>
 			<!-- About Me -->
 			<div id="about"><div class="inner">
-				<p class="tagline">ABOUT ME</p>
+				<p class="tagline" style="padding-bottom: 10px;">ABOUT ME</p>
+				<div class="taglinesmall">My last name is Fuchs with a h, not an k, and yes that is important.</div>
 				<!-- Console -->
 				<div class="social-media" style="text-align: center;">
          			<a href="https://github.com/cfuchs981"><i class="fa fa-github icon transparent"></i></a>
@@ -53,7 +59,7 @@
 							&gt; fuchs.expectedGraduation<br/>
 							<span class="answer">&nbsp;&nbsp;=&gt; "May 2020"<br/><br/></span>
 							&gt; fuchs.interests<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; ["software engineering", "design", "digital art", "violins", "mathematics", "writing", "cats"]<br/><br/></span>
+							<span class="answer">&nbsp;&nbsp;=&gt; ["software engineering", "design", "digital art", "orchestra", "mathematics", "writing", "cats"]<br/><br/></span>
 							&gt; fuchs.aboutme<br/>
 							<span class="answer">&nbsp;&nbsp;=&gt; "Hello! I'm Claire, a chronic doodler and software enthusiant fueled by caffeine, rampant motivation for questionably possible concepts, and copious time spent at the gym actively avoiding leg day. I'm interested in everything from machine learning to database structures to dynamic web design and everything inbetween. Ultimately I'm here to learn as much as possible, and I've yet to find a problem or language that hasn't been worth fighting. Feel free to look at my resume for more info! "<br/><br/></span>
 							&gt; fuchs.RESUME<br/>
@@ -68,44 +74,37 @@
 			
 			<!-- Portfolio -->
 			<div id="work"><div class="inner">
-				<p class="tagline">PROJECTS AND MORE</p>
+				<p class="tagline" style="padding-bottom: 10px;">PROJECTS AND MORE</p>
+				<div class="taglinesmall" style="color:black;">A collection of personal projects and other etc.</div>
 				<div class="row">
 					<div class="portfolio-thumb">
-						<p class="description"><img src="images/artsock.jpg" style="width: 150px; height: 150px;" align="left"/><b>ArtSock</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/artSock">(github code)</a> A summer project that stemmed from wanting to create a personal art blog independent of currently existing sites. Led to learning PHP/SQL, and creating a webpage based in HTML/CSS, JS, and the PureAPI to dynamically read in from a MySQL database using phpMyAdmin.</p>
+						<p class="description"><img src="img/artsock.jpg" style="width: 150px; height: 150px;" align="left"/><b>ArtSock</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/artSock">(github code)</a> A summer project that stemmed from wanting to create a personal art blog independent of currently existing sites. Led to learning PHP/SQL, and creating a webpage based in HTML/CSS, JS, and the PureAPI to dynamically read in from a MySQL database using phpMyAdmin.</p>
 					</div>
 					<div class="portfolio-thumb">
-						<p class="description"><img src="images/soundboard.jpg" style="width: 150px; height: 150px;" align="left"/><b>SoundBoard</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/SoundBoard">(github code)</a> A Java program that tries to emulate the capabilities of a midi fighter with your keyboard and Java's audio support. Java unfortunately is incapable of many audio capabilities plus giving a user actual musical talent, but it's enjoyable nonetheless.</p>
+						<p class="description"><img src="img/soundboard.jpg" style="width: 150px; height: 150px;" align="left"/><b>SoundBoard</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/SoundBoard">(github code)</a> A Java program that tries to emulate the capabilities of a midi fighter with your keyboard and Java's audio support. Java unfortunately is incapable of many audio capabilities plus giving a user actual musical talent, but it's enjoyable nonetheless.</p>
 					</div>
 				</div>						
 				<div class="row">
 					<div class="portfolio-thumb">
-						<p class="description"><img src="images/fiddle.jpg" style="width: 150px; height: 150px;" align="left"/><b>fiddle</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/fiddle-">(github code) </a> Another summer java project to create a 2D side scroller, exploring the capabilities of multithreading and graphical support in the language. Currently only has one 'level,' thus is incapable of actually scrolling to the side. Optimistically in development. 
+						<p class="description"><img src="img/fiddle.jpg" style="width: 150px; height: 150px;" align="left"/><b>fiddle</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/fiddle-">(github code) </a> Another summer java project to create a 2D side scroller, exploring the capabilities of multithreading and graphical support in the language. Currently only has one 'level,' thus is incapable of actually scrolling to the side. Optimistically in development. 
 						</p>
 					</div>
 					<div class="portfolio-thumb">
-						<p class="description"><img src="images/pydaily.jpg" style="width: 150px; height: 150px;" align="left"/><b>PyDaily</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/PyDaily">(github code)</a> A python program to solve the daily hassle of making a physical to do lists. Uses the Google Calendar API to print up to ten upcoming events along with other daily nonsense, plus parses allrecipes.com for a random recipe selection for the day. </p>
+						<p class="description"><img src="img/pydaily.jpg" style="width: 150px; height: 150px;" align="left"/><b>PyDaily</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/PyDaily">(github code)</a> A python program to solve the daily hassle of making a physical to do lists. Uses the Google Calendar API to print up to ten upcoming events along with other daily nonsense, plus parses allrecipes.com for a random recipe selection for the day. </p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="portfolio-thumb">
-						<p class="description"><img src="images/csdistress.jpeg" style="width: 150px; height: 150px;" align="left"/><b>CS Distress</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/CSDistress">(github code)</a> A game library created for a CS undergrad study group I organized. Updated each semester with new games centered on teachers we have graduate from. In development; currently being switched to web version for ease of use.</p>
+						<p class="description"><img src="img/csdistress.jpeg" style="width: 150px; height: 150px;" align="left"/><b>CS Distress</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/CSDistress">(github code)</a> A game library created for a CS undergrad study group I organized. Updated each semester with new games centered on teachers we have graduate from. In development; currently being switched to web version for ease of use.</p>
 					</div>
 					<div class="portfolio-thumb">
-						<p class="description"><img src="images/budgetier.jpg" style="width: 150px; height: 150px;" align="left"/><b>Budgetier</b>&nbsp;&nbsp;<a href="https://github.com/cfuchs981/Budgetier">(github code)</a> First web project created using self taught HTML/CSS, JS, and other etc. Provides a monthly overview of expenses to aid in budgeting via the JS Charts library. Will be linked to SQL database soon to make a dynmanic, and thus more useful budget account. </p></div>
+						<p class="description"><img src="img/budgetier.jpg" style="width: 150px; height: 150px;" align="left"/><b>Budgetier</b>&nbsp;&nbsp;<a href="https://github.com/cfuchs981/Budgetier">(github code)</a> First web project created using self taught HTML/CSS, JS, and other etc. Provides a monthly overview of expenses to aid in budgeting via the JS Charts library. Will be linked to SQL database soon to make a dynmanic, and thus more useful budget account. </p></div>
 					</div>
 				</div>
 			</div></div>
 
-			<div  id ="footer"><div class="inner">
-			 
-				<span class="right">
-					<a target="_blank" href="mailto:cfuchs981@gmail.com">Email</a>&nbsp;//&nbsp;
-					<a target="_blank" href="https://www.linkedin.com/in/claire-fuchs-1a6239145/">LinkedIn</a>&nbsp;//&nbsp;
-					<a target="_blank" href="http://www.github.com/cfuchs981">Github</a>&nbsp;//&nbsp;
-					<a target="_blank" href="FCresume.pdf">Resume</a>
-				</span>
-			</div></div>
-		
+
+
 
 
 </body>
