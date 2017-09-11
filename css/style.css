@@ -163,6 +163,7 @@ li a:hover {
   font-size:30px;
   background: #ccc;
   height: 700px;
+  max-height: 1000px; 
   font-family: 'Monaco', 'Courier New';
   text-align: left;
   font-size:13px;
@@ -174,6 +175,7 @@ li a:hover {
   padding: 40px;
   height: 620px;
   margin:0 auto;
+  max-height: 950px;
   background: #383737;
 }
 
