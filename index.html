@@ -1,249 +1,117 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Home | Claire Fuchs</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+ <head>
+	<title>Home | Claire Fuchs</title>
+	  	<meta charset="UTF-8">
+		<meta name="description" content="claire fuchs personal website ">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0;">
+   <link rel="shortcut icon" type = "image/x-icon" href="favicon.ico">
+	  	<link href="css/style.css" rel="stylesheet">
+	    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Rokkitt|Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'> 
+		<link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>  
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	    
+	</head>
+	<body>
+		<!--Navigation -->
+	
+		<div id="page-wrapper">
+			<!-- Header -->
+			<div id="header">
+				<div class="inner name">Claire Fuchs</div>
+				<div id="nav" class="nav" >
+					<ul>
+ 					 <li><a href="#illustration">Home</a></li>
+  						<li><a href="#about">About Me</a></li>
+  					<li><a href="#work">Work</a></li>
+					</ul>
+			</div>
+			</div>
+				
+			</div>
+			<!-- Essentials Illustration -->
+			<div id="illustration"><center><img src="img/big.gif" /><p class="tagline" style="padding: 0 0 0 0;">h e l l o, w o r l d!</p></center></div>
+			<!-- About Me -->
+			<div id="about"><div class="inner">
+				<p class="tagline">ABOUT ME</p>
+				<!-- Console -->
+				<div class="social-media" style="text-align: center;">
+         			<a href="https://github.com/cfuchs981"><i class="fa fa-github icon transparent"></i></a>
+          			<a href="https://www.linkedin.com/in/claire-fuchs-1a6239145/"><i class="fa fa-linkedin icon transparent"></i></a>
+          			<a href="mailto:cfuchs981@gmail.com"><i class = "fa fa-envelope icon transparent"></i></a>
+                    <a href="FCresume.pdf"><i class="fa fa-download"></i></i></a>
+				</div>
+					<div id="code">
+						<div id="console">
+							&gt; fuchs.location<br/>
+							<span class="answer">&nbsp;&nbsp;=&gt; "St. Louis, MO"<br/><br/></span>
+							&gt; fuchs.education<br/>
+							<span class="answer">&nbsp;&nbsp;=&gt; "Truman State University"<br/><br/></span>
+							&gt; fuchs.major<br/>
+							<span class="answer">&nbsp;&nbsp;=&gt; "Computer Science"<br/><br/></span>
+							&gt; fuchs.expectedGraduation<br/>
+							<span class="answer">&nbsp;&nbsp;=&gt; "May 2020"<br/><br/></span>
+							&gt; fuchs.interests<br/>
+							<span class="answer">&nbsp;&nbsp;=&gt; ["software engineering", "design", "digital art", "orchestra", "mathematics", "writing", "cats"]<br/><br/></span>
+							&gt; fuchs.aboutme<br/>
+							<span class="answer">&nbsp;&nbsp;=&gt; "Hello! I'm Claire, a chronic doodler and software enthusiant fueled by caffeine, rampant motivation for questionably possible concepts, and copious time spent at the gym actively avoiding leg day. I'm interested in everything from machine learning to database structures to dynamic web design and everything inbetween. Ultimately I'm here to learn as much as possible, and I've yet to find a problem or language that hasn't been worth fighting. Feel free to look at my resume for more info! "<br/><br/></span>
+							&gt; fuchs.RESUME<br/>
+							<span class="answer">&nbsp;&nbsp;=&gt; Click the download icon above, or click <a href="FCresume">FCresume.pdf</a><br/><br/></span>
+							&gt; fuchs.whatamIthinkingabout<br/>
+							<span class="answer">&nbsp;&nbsp;=&gt; "That one time in second grade when an office lady told me my IQ was too low for advanced math. We'll see about that, Debbie." <br/><br/></span>
+						</div>
+					</div>
+				</div>
+				<br/>
+			</div>
+			
+			<!-- Portfolio -->
+			<div id="work"><div class="inner">
+				<p class="tagline">PROJECTS AND MORE</p>
+				<div class="row">
+					<div class="portfolio-thumb">
+						<p class="description"><img src="img/artsock.jpg" style="width: 150px; height: 150px;" align="left"/><b>ArtSock</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/artSock">(github code)</a> A summer project that stemmed from wanting to create a personal art blog independent of currently existing sites. Led to learning PHP/SQL, and creating a webpage based in HTML/CSS, JS, and the PureAPI to dynamically read in from a MySQL database using phpMyAdmin.</p>
+					</div>
+					<div class="portfolio-thumb">
+						<p class="description"><img src="img/soundboard.jpg" style="width: 150px; height: 150px;" align="left"/><b>SoundBoard</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/SoundBoard">(github code)</a> A Java program that tries to emulate the capabilities of a midi fighter with your keyboard and Java's audio support. Java unfortunately is incapable of many audio capabilities plus giving a user actual musical talent, but it's enjoyable nonetheless.</p>
+					</div>
+				</div>						
+				<div class="row">
+					<div class="portfolio-thumb">
+						<p class="description"><img src="img/fiddle.jpg" style="width: 150px; height: 150px;" align="left"/><b>fiddle</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/fiddle-">(github code) </a> Another summer java project to create a 2D side scroller, exploring the capabilities of multithreading and graphical support in the language. Currently only has one 'level,' thus is incapable of actually scrolling to the side. Optimistically in development. 
+						</p>
+					</div>
+					<div class="portfolio-thumb">
+						<p class="description"><img src="img/pydaily.jpg" style="width: 150px; height: 150px;" align="left"/><b>PyDaily</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/PyDaily">(github code)</a> A python program to solve the daily hassle of making a physical to do lists. Uses the Google Calendar API to print up to ten upcoming events along with other daily nonsense, plus parses allrecipes.com for a random recipe selection for the day. </p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="portfolio-thumb">
+						<p class="description"><img src="img/csdistress.jpeg" style="width: 150px; height: 150px;" align="left"/><b>CS Distress</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/CSDistress">(github code)</a> A game library created for a CS undergrad study group I organized. Updated each semester with new games centered on teachers we have graduate from. In development; currently being switched to web version for ease of use.</p>
+					</div>
+					<div class="portfolio-thumb">
+						<p class="description"><img src="img/budgetier.jpg" style="width: 150px; height: 150px;" align="left"/><b>Budgetier</b>&nbsp;&nbsp;<a href="https://github.com/cfuchs981/Budgetier">(github code)</a> First web project created using self taught HTML/CSS, JS, and other etc. Provides a monthly overview of expenses to aid in budgeting via the JS Charts library. Will be linked to SQL database soon to make a dynmanic, and thus more useful budget account. </p></div>
+					</div>
+				</div>
+			</div></div>
 
- <link rel="shortcut icon" type = "image/x-icon" href="favicon.ico">
-<!--CSS Files-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300italic">
-<link rel="stylesheet" href="css/default.css">
-<!--<link rel="stylesheet" href="screen.css">-->
-<link rel="stylesheet" href="css/longform.css">
-<link rel="stylesheet" href="css/animate.min.css">
-<link rel="stylesheet" href="css/app.css">
-<!--[if lte IE 8]>
-link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
-<![endif]-->
-<!--[if gt IE 8]><!-->
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
-<!--<![endif]-->
-<style>[ng-cloak] {display: none}</style>
-</head>
-
-<body id="main">
-  <div id="padder" class="am-content-header-container am-light">
-    <div class="am-content-container">
-      <header class="pure-g-r">
-        <div class="pure-u-1-3"></div>
-      </header>
-    </div>
-  </div>
-  
-  <section id="hero" data-stellar-background-ratio="0.5" class="am-hero am-hero-cover cover bm am-hero-small">
-    <div>
-      <div class="am-content-container valigned">
-        <div class="pure-g content-centered">
-        <div class="pure-u">
-        </div></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="intro" class="content-wrapper">
-    <div class="content"><div class="am-content-container">
-      <div class="pure-g hcentered"><div class="pure-u hcentered">
-        <img src="images/help.png" class="about-avatar">
-        <h1><div class="animated fadeInDown">
-          <span style="margin-left: 16px; padding-left: 15px" class="muted-blue">Claire</span>
-          <span style="margin-right: 16px" class="muted-pink">Fuchs</span>
-        </div><hr>
-        <div style="line-height: 0.5em" class="animated fadeInUp">
-          <a href="https://github.com/cfuchs981"><i class="fa fa-github icon transparent"></i></a>
-          <a href="https://www.linkedin.com/in/claire-fuchs-1a6239145/"><i class="fa fa-linkedin icon transparent"></i></a>
-          <a href="mailto:cfuchs981@gmail.com"><i class = "fa fa-envelope icon transparent"></i></a> 
-          <a href="FCresume.pdf" target="_blank"><i class="fa fa-file-text icon transparent"></i></a> 
-        </div>
-      </h1>
-    </div>
-  </div>
-  <div class="pure-g hcentered">
-    <div class="pure-u-1 pure-u-md-1-12"></div>
-    <div class="pure-u-1 pure-u-md-5-6">
-      <h4 class="text-justified gray"><br>In 2nd grade, some office lady told me that my IQ was too low to take advanced math. I think it was meant to be comforting, and not a challenge, but I guess it all worked out anyways. <br> <br>If there's anything that the resources found here can't cover, or you'd just like to start a conversation, feel free to reach out anytime! 
-      </h4>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-
-<section id="code" class="content-wrapper">
-  <div class="content">
-    <div class="am-content-container">
-      <div class="pure-g hcentered">
-        <div style="width: 97%" class="pure-u hcentered">
-          <div class="image-row">
-            <div class="grid">
-              <div class='grid-sizer'>
-              </div>
-
-<div class='grid-item col-2'>
-    <div class='image-link'>
-      <div class='inner'>
-      
-       
-      <video autoplay loop preload="auto" poster="images/img6.jpg">
-      </video>
-      <img src='images/img6.jpg' class='hidden-vid-poster'></img>
-      
-      
-      <div class='image-info'>
-        <h1>ArtSock</h1>
-        <span>
-        2017 • <a href="https://github.com/cfuchs981/artSock">github code</a>
-        </span>
-        <div class='inner-info'>
-          <div class='text'><p>I wanted to build a personal art blog and learn SQL, so I combined the two ideas and made this.</p>
-            <p>Dynamically reads in from local MySQL database on launch, formats with HTML/CSS, Pure API, and JS</p>
-          </div>
-        </div>
-      </div>
-        </div>
-    </div>
-    <div class='bot'></div>
-</div>
-
-<div class='grid-item col-2'>
-    <div class='image-link'>
-      <div class='inner'>
-      
-      <video autoplay loop preload="auto" poster="images/img1.jpg">
-      </video>
-      <img src='images/img1.jpg' class='hidden-vid-poster'></img>
-      
-      <div class='image-info'>
-        <h1>SoundBoard</h1>
-        <span>
-        2017 • <a href="https://github.com/cfuchs981/SoundBoard">github code</a>
-        </span>
-        <div class='inner-info'>
-          <div class='text'><p>A fun java program to experiment with audio settings. It tries to turn your keyboard into a midi fighter. Does it make you a qualified DJ? No. It doesn't. Java suffers many limitations as a language. </p>
-          </div>
-        </div>
-      </div>
-        </div>
-    </div>
-    <div class='bot'></div>
-</div>
-
-<div class='grid-item col-2'>
-    <div class='image-link'>
-      <div class='inner'>
-      
-      
-      <video autoplay loop preload="auto" poster="images/img2.jpg">
-      </video>
-      <img src='images/img2.jpg' class='hidden-vid-poster'></img>
-      
-      <div class='image-info'>
-        <h1>fiddle</h1>
-        <span>
-        2017 • <a href="https://github.com/cfuchs981/fiddle-">github code</a>
-        </span>
-        <div class='inner-info'>
-          <div class='text'><p>A thrilling 2D side scrolling in Java that only has one map thus cannot scroll to the side (YET), but is a fantastic way to spend an afternoon.</p>
-           </div>
-        </div>
-      </div>
-        </div>
-    </div>
-    <div class='bot'></div>
-</div>
-
-<div class='grid-item col-2'>
-    <div class='image-link'>
-      <div class='inner'>
-      
-      
-      <video autoplay loop preload="auto" poster="images/img3.jpg">
-      </video>
-      <img src='images/img3.jpg' class='hidden-vid-poster'></img>
-      
-
-      <div class='image-info'>
-        <h1>PyDaily</h1>
-        <span>
-        2017 • <a href="https://github.com/cfuchs981/PyDaily">github code</a>
-        </span>
-        <div class='inner-info'>
-          <div class='text'><p>This is a python program to experiment with Google API's and html parsing. Ultimately, it produces a daily to do list on top of collecting data from your personal Google calendar and returning a random array of recipes scraped from allrecipes.com </p>
-          </div>
-        </div>
-      </div>
-        </div>
-    </div>
-    <div class='bot'></div>
-</div>
+			<div  id ="footer"><div class="inner">
+			 
+				<span class="right">
+					<a target="_blank" href="mailto:cfuchs981@gmail.com">Email</a>&nbsp;//&nbsp;
+					<a target="_blank" href="https://www.linkedin.com/in/claire-fuchs-1a6239145/">LinkedIn</a>&nbsp;//&nbsp;
+					<a target="_blank" href="http://www.github.com/cfuchs981">Github</a>&nbsp;//&nbsp;
+					<a target="_blank" href="FCresume.pdf">Resume</a>
+				</span>
+			</div></div>
+		
 
 
-<div class='grid-item col-2'>
-    <div class='image-link'>
-      <div class='inner'>
-      
-     
-      <video autoplay loop preload="auto" poster="images/img4.jpg">
-      </video>
-      <img src='images/img4.jpg' class='hidden-vid-poster'></img>
-      
-      <div class='image-info'>
-        <h1>CSDistress Library</h1>
-        <span>
-        2017 • <a href="https://github.com/cfuchs981">github code</a>
-        </span>
-        <div class='inner-info'>
-          <div class='text'><p>This is a game library created for a CS study group I organized. Each member can play themselves, and it's updated each semester with games centered on the professors we have graduated from. Currently only holds one game, more in progress along with a web version. </p>
-          </div>
-        </div>
-      </div>
-        </div>
-    </div>
-    <div class='bot'></div>
-</div>
-
-
-<div class='grid-item col-2'>
-    <div class='image-link'>
-      <div class='inner'>
-      
-     
-      <video autoplay loop preload="auto" poster="images/img5.jpg">
-      </video>
-      <img src='images/img5.jpg' class='hidden-vid-poster'></img>
-      
-      <div class='image-info'>
-        <h1>Budgetier</h1>
-        <span>
-        2017 • <a href="https://github.com/cfuchs981/Budgetier">github code</a>
-        </span>
-        <div class='inner-info'>
-          <div class='text'><p> Another website built with HTML/CSS and Javascript, though this one was to experiment with the JSCharts library. Provides a nice visual representation of monthly expenses and budget.</p>
-          </div>
-        </div>
-      </div>
-        </div>
-    </div>
-    <div class='bot'></div>
-</div>
-
-
-
-
-</div></div><h3-dark class="text-centered light-gray"><br>Visit <a href="https://github.com/cfuchs981">github:cfuchs981 </a>for more info and ongoing projects.</h3-dark></div></div></div></div></section>
-
-
-<section style="padding:20px" class="am-content-container"></section>
 </body>
 <!-- Included Javascript Files-->
-<script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-<script src="js/grid.js"></script>
-<script src="js/app.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="js/jquery.fixedTOC.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -263,3 +131,5 @@ return false;
 </script>
 <script>Grid.init();</script>
 </html>
+
+
