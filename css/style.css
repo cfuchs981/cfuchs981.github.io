@@ -459,7 +459,7 @@ ul.toc {
   #code, #console {
     width: 90%;
     display: block;
-    overflow: auto;
+    overflow: scroll;
   }
 
   #illustration {
