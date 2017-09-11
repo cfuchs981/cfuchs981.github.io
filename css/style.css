@@ -177,8 +177,23 @@ li a:hover {
   background: #383737;
 }
 
+
+
 span.answer {
   color:#ccc;
+}
+
+
+.taglinesmall {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3em;
+  padding-bottom: 10px;
+  font-size: 9px;
+  text-transform: uppercase;
+  padding-top: 0px;
+  color: #fafafa;
+
 }
 
 #about p {
@@ -192,6 +207,8 @@ span.answer {
   text-transform: uppercase;
 
 }
+
+
 
 .tagline {
   text-align: center;
@@ -255,6 +272,7 @@ img.icon:hover {
 .portfolio-thumb {
   width: 45%;
   margin: 20px;
+  border-radius: 20px;
   background-color: white;
   display: inline-block;
   /*//height: 500px;*/
@@ -465,7 +483,7 @@ ul.toc {
     padding-bottom: 15px;
   }
 
-  #header .name .nav{
+  #header .name{
     width:40%;
     float: left;
     font-size: 12px;
