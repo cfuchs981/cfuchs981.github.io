@@ -478,11 +478,14 @@ ul.toc {
     display: none;
   }
 
+  .inner {
+    line-height: 20px; 
+  }
+  
   #header .nav{
-    line-height: 20px;
+    line-height: 10px;
     padding-top: 15px;
     text-align: left;
-    padding-bottom: 5px;
   }
 
   #header .name{
@@ -508,11 +511,11 @@ ul.toc {
     display: none;
   }
 
-
+  
+  
   #header .nav {
     padding-top: 15px;
     text-align: left;
-    padding-bottom: 5px;
   }
 
   #header .name{
