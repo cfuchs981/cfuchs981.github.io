@@ -602,6 +602,10 @@ ul.toc {
     width: 55%;
         padding-right: 10px;
   }
+  
+  .nav{
+    width: 100%; 
+  }
 
   li.mobile-header {
     display: inline-block;
