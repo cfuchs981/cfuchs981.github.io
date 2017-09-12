@@ -491,8 +491,8 @@ ul.toc {
   #header .name{
     width:40%;
     float: left;
-    font-size: 18px;
-    display: inline-block;
+    font-size: 14px;
+    padding-bottom: 5px; 
   }
 
   .optionnav{
