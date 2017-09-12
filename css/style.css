@@ -496,7 +496,7 @@ ul.toc {
   }
 
   .optionnav{
-    visibility: hidden; 
+    display: none; 
   }
 
 
