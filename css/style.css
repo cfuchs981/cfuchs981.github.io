@@ -492,19 +492,10 @@ ul.toc {
     display: inline-block;
   }
 
-  #header .nav {
-    display: inline-block;
-    float: left;
-    width: 100%;
-  }
-
   .optionnav{
     visibility: hidden; 
   }
 
-  li.mobile-header a {
-    color: #b1b1b1;
-  }
 
   #console #code{
     width: 90%; 
@@ -521,10 +512,10 @@ ul.toc {
   #header .nav {
     padding-top: 15px;
     text-align: left;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
 
-  #header .name .nav{
+  #header .name{
     width:40%;
     float: left;
     font-size: 16px;
@@ -539,16 +530,6 @@ ul.toc {
         padding-right: 10px;
   }
 
-  li.mobile-header {
-    display: inline-block;
-    font-size: 8px;
-    line-height: 10px;
-    padding-right: 5px;
-  }
-
-  li.mobile-header a {
-    color: #b1b1b1;
-  }
 
   #illustration {
     padding-bottom: 0px;
@@ -588,7 +569,7 @@ ul.toc {
     padding-top: 15px;
     text-align: left;
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
 
   #header .name {
@@ -607,16 +588,6 @@ ul.toc {
   }
 
 
-  li.mobile-header {
-    display: inline-block;
-    font-size: 8px;
-    line-height: 10px;
-    padding-right: 5px;
-  }
-
-  li.mobile-header a {
-    color: #b1b1b1;
-  }
 
   #about .inner {
     padding: 0px 10px 0px 10px;
