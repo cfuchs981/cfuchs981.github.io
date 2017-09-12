@@ -498,6 +498,9 @@ ul.toc {
     width: 100%;
   }
 
+  .optionnav{
+    visibility: hidden; 
+  }
 
   li.mobile-header a {
     color: #b1b1b1;
