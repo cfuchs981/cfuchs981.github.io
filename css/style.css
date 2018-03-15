@@ -4,6 +4,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+
 body {
   margin: 0;
   font-size: 14px;
@@ -147,10 +148,22 @@ li a:hover {
   text-align: center; 
 }
 
+.banner {
+  width: 100%; 
+  height: 20%; 
+  border-radius: 20px 20px 0 0 ; 
+  color: white; 
+  font-family: Montserrat, serif; 
+  letter-spacing: 2px;
+  padding-top: 5px;
+  text-shadow: 0 2px black;
+}
+
+
 #about {
 /*  background-color: #D57878;*/
   background-color: #00a98f;
-  height: 1020px;
+  height: 900px;
   margin-top:-30px;
 }
 
@@ -162,7 +175,6 @@ li a:hover {
   padding-top:15px;
   font-size:30px;
   background: #ccc;
-  height: 700px;
   max-height: 1000px; 
   font-family: 'Monaco', 'Courier New';
   text-align: left;
@@ -173,7 +185,6 @@ li a:hover {
 #console {
   width:670px;
   padding: 40px;
-  height: 620px;
   margin:0 auto;
   max-height: 950px;
   background: #383737;
@@ -277,7 +288,8 @@ img.icon:hover {
   border-radius: 20px;
   background-color: white;
   display: inline-block;
-  /*//height: 500px;*/
+  box-shadow: 0 8px 6px -6px black; 
+  height: 270px;
 }
 
 .portfolio-thumb img {
@@ -289,7 +301,6 @@ img.icon:hover {
   padding: 25px;
   padding-top: 0px;
   text-align: left;
-  line-height: 24px;
 }
 
 .portfolio-thumb a {
