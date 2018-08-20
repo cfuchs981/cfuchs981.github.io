@@ -1,141 +1,49 @@
 
 <!DOCTYPE html>
- <head>
-	<title>Home | Claire Fuchs</title>
+<html>
+	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-105795363-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-105795363-1');
+		</script>
+		<title>Home | Claire Fuchs</title>
 	  	<meta charset="UTF-8">
-		<meta name="description" content="claire fuchs personal website ">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0;">
-   <link rel="shortcut icon" type = "image/x-icon" href="favicon.ico">
-	  	<link href="css/style.css" rel="stylesheet">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  	<link href="style.css" rel="stylesheet" />
+	  	<link rel="shortcut icon" type = "image/x-icon" href="favicon.ico" />
 	    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Rokkitt|Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'> 
-		<link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>  
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
-	    
+		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />    
 	</head>
 	<body>
-
-
-	<!--Navigation -->
-	
-	<div id="page">
-		<div id="page-wrapper">
-			<!-- Header -->
-			<div id="header">
-				<div class="inner name" style="padding-top:15px;">Claire Fuchs</div>
-				<div class="inner name optionnav" style="line-height:15px; padding-top: 0px;margin: 0px 15px 0px 15px;">
-					<ul>
- 					 <li><a href="#illustration">Home</a></li>
-  						<li><a href="#about">About Me</a></li>
-  					<li><a href="#work">Work</a></li>
-  					  <li><a href="FCresume.pdf">Resume</a></li>
-					</ul>
-				</div>
-			</div>
-			
-			
-			
-			
-				
-			</div>
-			<!-- Essentials Illustration -->
-			<div id="illustration"><center><img src="images/big.gif" /><p class="tagline" style="padding: 0 0 10px 0; font-size:16px;">h e l l o, w o r l d!</p></center></div>
-			<!-- About Me -->
-			<div id="about"><div class="inner">
-				<p class="tagline" style="padding-bottom: 10px;">ABOUT ME</p>
-				<!-- Console -->
-				<div class="social-media" style="text-align: center;">
-         			<a href="https://github.com/cfuchs981"><i class="fa fa-github icon transparent"></i></a>
-          			<a href="https://www.linkedin.com/in/claire-fuchs-1a6239145/"><i class="fa fa-linkedin icon transparent"></i></a>
-          			<a href="mailto:cfuchs981@gmail.com"><i class = "fa fa-envelope icon transparent"></i></a>
-                    <a href="FCresume.pdf"><i class="fa fa-download"></i></i></a>
-				</div>
-					<div id="code">
-						<div id="console" style="box-shadow: 0 8px 6px -6px black">
-							&gt; fuchs.location<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; "Mountain View, CA"<br/><br/></span>
-							&gt; fuchs.education<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; "Truman State University"<br/><br/></span>
-							&gt; fuchs.major<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; "Computer Science"<br/><br/></span>
-							&gt; fuchs.expectedGraduation<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; "May 2020"<br/><br/></span>
-							&gt; fuchs.aboutme<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; "Hello! I'm Claire, an artist and software developer who lives on Java (the language and/or coffee). Feel free to reach out about anything and everything! "<br/><br/></span>
-							&gt; fuchs.RESUME<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; Click the download icon above, or click <a href="FCresume.pdf">FCresume.pdf</a><br/><br/></span>
+		<!--Parent div containing whole webpage. Fills background with gif image.-->
+		<div class="gif"></div>
+		<!--Outer wrapper div for content.-->
+		<div class="outer">
+			<div class="wrapper">
+				<div class="info">
+					<div class="inner">
+						<div class="intro">Hi, I'm Claire Fuchs
+							<p class="intro">Former software engineer intern at Google<br/>
+							Graduating from Truman State University in May 2020<br/><br/>
+							Resume &amp; Contact information below</p>
+							<footer class="contact">
+								<div class="icon"><a href="mailto:cfuchs981@gmail.com"><i class = "fa fa-envelope "></i></a></div>
+								<div class="icon"><a href="https://www.linkedin.com/in/claire-fuchs-1a6239145/"><i class="fa fa-linkedin "></i></a></div>
+								<div class="icon"><a href="https://github.com/cfuchs981"><i class="fa fa-github"></i></a></div>
+								<div class="icon"><a href="FCresume.pdf"><i class="fa fa-download"></i></i></a></div>
+							</div> 
 						</div>
 					</div>
 				</div>
-				<br/>
 			</div>
-
-			
-			<!-- Portfolio -->
-			<div id="work"><div class="inner">
-				<p class="tagline" style="padding-bottom: 10px;">PROJECTS</p>
-				<div class="taglinesmall" style="color:black;">A collection of recent projects. See <a style="color:blue" href="http://github.com/cfuchs981">github </a> for more. </div>
-				<div class="row">
-					<div class="portfolio-thumb">
-						<div class="banner" style="background-color:#00a98f;">ArtSock</div>
-						<p class="description"><b>ArtSock</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/artSock">(github code)</a> A personal art blog created to learn PHP/mySQL and be a refresher on web technologies like HTML/CSS and JS. Also used to experiment with the PureCSS API. </p>
-					</div>
-					<div class="portfolio-thumb">
-						<div class="banner" style="background-color:#fd5c63;">CSDistress</div>
-						<p class="description"><b>CSDistress</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/CSDistress">(github code)</a> A Java game library made as a resource for a study group who didn't ask for it. Allows members to play as themselves in professor-themed arcade games. Currently in development.</p>
-					</div>
-				</div>						
-				<div class="row">
-					<div class="portfolio-thumb">
-						<div class="banner" style="background-color:#fd5c63;">fiddle</div>
-						<p class="description"><b>fiddle</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/fiddle">(github code) </a> A java project that tried to create a 2D sidescroller for the sake of saying it's possible. Currently only has one level, and thus is incapable of scrolling to the side. 
-						</p>
-					</div>
-					<div class="portfolio-thumb">
-						<div class="banner" style="background-color:#00a98f;">MarkovBot</div>
-						<p class="description"><b>MarkovBot</b>&nbsp;&nbsp; <a href="https://github.com/cfuchs981/markov-bot">(github code)</a> A discord bot written in Node js that uses the statistical power of a Markov Chain to generate responses based on the chat log of a server. </p>
-					</div>
-				</div>
-			</div></div>
-
-
-
-
-			<div  id ="footer"><div class="inner">
-				© 2017 Claire Fuchs. 
-				<span class="right">
-					<a target="_blank" href="mailto:cfuchs981@gmail.com">Email</a>&nbsp;//&nbsp;
-					<a target="_blank" href="https://www.linkedin.com/in/claire-fuchs-1a6239145/">LinkedIn</a>&nbsp;//&nbsp;
-					<a target="_blank" href="http://www.github.com/cfuchs981">Github</a>&nbsp;//&nbsp;
-					<a target="_blank" href="FCresume.pdf">Resume</a>
-				</span>
-			</div></div>
-
-		</div><!--page end--> 
-		<!-- Included Javascript Files-->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<script src="js/jquery.fixedTOC.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-105795363-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<script>$('a[href^="#"').click(function(){
-$('html, body').animate({
-scrollTop: $( $.attr(this, 'href') ).offset().top
-}, 500);
-return false;
-});
-</script>
-<script>Grid.init();</script>
-
-</body>
-
-</html>
-
-
+		</div> 
+	</body> 
+</html> 
